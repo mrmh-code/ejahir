@@ -68,6 +68,18 @@ const Wrapper = styled.section`
   .submit-btn:hover {
     color: var(--clr-white);
   }
+  @media (max-width: 600px) {
+    .contact-form {
+      width: 60vw;
+      max-width: 300px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+
+    .content{
+      width:60%
+    }
+  }
   @media (min-width: 992px) {
     .content {
       display: grid;
